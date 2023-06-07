@@ -1,4 +1,4 @@
-export function getWekkDays() {
+export function getWeekDays() {
   const formatter = new Intl.DateTimeFormat('pt-BR', {
     weekday: 'long',
   })
