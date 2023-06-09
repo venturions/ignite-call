@@ -20,6 +20,10 @@ export const Container = styled(Box, {
       false: {
         width: 540,
         gridTemplateColumns: '1fr',
+
+        '@media(max-width: 600px)': {
+          width: 'auto',
+        },
       },
     },
   },
