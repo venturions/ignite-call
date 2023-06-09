@@ -2,6 +2,8 @@
 
 Aplicação fullstack que consome a API do Google Calendar para realizar agendamentos em seu calendário. A interface da aplicação foi construída de forma totalmente performática e acessível utilizando o Next.js. Além disso, foi criada uma API que consome um banco MySQL criado pelo Prisma. A aplicação também possui autenticação com o Google utilizando o NextAuth.
 
+URL: https://vercel.com/venturions/ignite-call
+
 ## Tecnologias Utilizadas
 
 - React
