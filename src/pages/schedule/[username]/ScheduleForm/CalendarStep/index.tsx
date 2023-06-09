@@ -10,7 +10,7 @@ import {
 import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
 import { api } from '../../../../../lib/axios'
-import { useQuery } from 'react-query'
+import { useQuery } from '@tanstack/react-query'
 
 interface Availability {
   possibleTimes: number[]

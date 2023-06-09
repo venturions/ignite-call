@@ -2,9 +2,9 @@ import '../lib/dayjs.ts'
 import type { AppProps } from 'next/app'
 import { SessionProvider } from 'next-auth/react'
 import { globalStyles } from '../styles/global'
-import { QueryClientProvider } from 'react-query'
 import { queryClient } from '../lib/react-query'
 import { DefaultSeo } from 'next-seo'
+import { QueryClientProvider } from '@tanstack/react-query'
 
 globalStyles()
 

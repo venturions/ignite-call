@@ -10,9 +10,9 @@ import {
 import { getWeekDays } from '../../utils/get-week-days'
 import { useMemo, useState } from 'react'
 import dayjs from 'dayjs'
-import { useQuery } from 'react-query'
 import { api } from '../../lib/axios'
 import { useRouter } from 'next/router'
+import { useQuery } from '@tanstack/react-query'
 
 interface CalendarWeek {
   week: number
