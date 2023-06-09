@@ -12,7 +12,9 @@ export const Container = styled(Box, {
         gridTemplateColumns: '1fr 280px',
 
         '@media(max-width: 900px)': {
-          gridTemplateColumns: '1fr',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
         },
       },
       false: {
@@ -29,10 +31,16 @@ export const TimePicker = styled('div', {
   overflowY: 'scroll',
 
   position: 'absolute',
+
   top: 0,
   bottom: 0,
   right: 0,
   width: 280,
+
+  '@media(max-width: 900px)': {
+    position: 'unset',
+    border: 'none',
+  },
 })
 
 export const TimePickerHeader = styled(Text, {

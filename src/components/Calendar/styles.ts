@@ -55,6 +55,11 @@ export const CalendarBody = styled('table', {
     color: '$gray200',
     fontWeight: '$medium',
     fontSize: 'sm',
+
+    width: '20px',
+    textOverflow: 'clip',
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
   },
 
   'tbody:before': {

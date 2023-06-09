@@ -166,7 +166,7 @@ export function Calendar({ selectedDate, onDateSelected }: CalendarProps) {
         <thead>
           <tr>
             {shortWeekDays.map((day) => (
-              <th key={day}>{day}.</th>
+              <th key={day}>{day}</th>
             ))}
           </tr>
         </thead>
